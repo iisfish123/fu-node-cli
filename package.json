@@ -14,10 +14,13 @@
     "@babel/template": "^7.12.13",
     "@babel/traverse": "^7.13.13",
     "@babel/types": "^7.13.14",
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.2",
     "commander": "^9.3.0",
     "inquirer": "^8.2.4",
-    "npm-package-arg": "^9.0.2"
+    "ora": "^3.4.0",
+    "pacote": "^13.6.0",
+    "semver": "^7.3.7",
+    "semver-diff": "^3.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
