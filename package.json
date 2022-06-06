@@ -1,0 +1,36 @@
+{
+  "name": "fu-node-cli",
+  "version": "1.0.0",
+  "description": "test 111",
+  "main": "index.js",
+  "bin": {
+    "fu-node-cli": "bin/main.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/generator": "^7.13.9",
+    "@babel/helper-module-imports": "^7.13.12",
+    "@babel/parser": "^7.13.13",
+    "@babel/template": "^7.12.13",
+    "@babel/traverse": "^7.13.13",
+    "@babel/types": "^7.13.14",
+    "chalk": "^4.1.0",
+    "commander": "^9.3.0",
+    "inquirer": "^8.2.4",
+    "npm-package-arg": "^9.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iisfish123/fu-node-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iisfish123/fu-node-cli/issues"
+  },
+  "homepage": "https://github.com/iisfish123/fu-node-cli#readme"
+}
