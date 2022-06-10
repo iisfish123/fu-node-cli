@@ -2,9 +2,9 @@ const { declare } = require('@babel/helper-plugin-utils')
 const importModule = require('@babel/helper-module-imports')
 const template = require('@babel/template').default
 
-const routerTemplate = template("router.post('/offlineupdate/admin/lkz.json', controller.offline.lkz)")({})
+const routerTemplate = template("router.get('/offlineupdate/admin/index.json', controller.offline.index)")({})
 
-const autoTrackPlugin = declare((api, options, dirname) => {
+const insertPlugin = declare((api, options, dirname) => {
     api.assertVersion(7)
 
     return {
@@ -46,4 +46,4 @@ const autoTrackPlugin = declare((api, options, dirname) => {
         }
     }
 })
-module.exports = autoTrackPlugin
+module.exports = insertPlugin
