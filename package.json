@@ -1,7 +1,7 @@
 {
   "name": "fu-node-cli",
-  "version": "1.0.3",
-  "description": "脚手架工具",
+  "version": "1.0.5",
+  "description": "fu脚手架工具",
   "main": "index.js",
   "bin": {
     "fu-node-cli": "bin/main.js"
