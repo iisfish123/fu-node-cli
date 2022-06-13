@@ -35,7 +35,7 @@ const insertPlugin = declare((api, options, dirname) => {
             'ClassMethod|ArrowFunctionExpression|FunctionExpression|FunctionDeclaration'(path, state) {
                 const bodyPath = path.get('body')
                 if (bodyPath.isBlockStatement()) {
-                    const routerTemplate = template(`router.get('/${options.name}/index.json', controller.${options.name}.index)`)({})
+                    const routerTemplate = template(`router.get('/${options.name}/index', controller.${options.name}.index)`)({})
                     bodyPath.node.body.push(routerTemplate)
                 } else {
                     // const ast = api.template.statement(`{${state.trackerImportId}()return PREV_BODY}`)({PREV_BODY: bodyPath.node})
