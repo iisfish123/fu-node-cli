@@ -1,0 +1,4 @@
+{
+  "egg-redis": "^2.4.0",
+  "egg-mongoose": "^3.3.1"
+}
